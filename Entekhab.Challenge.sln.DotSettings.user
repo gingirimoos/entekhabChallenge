@@ -1,0 +1,10 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=aa697211_002D1eb7_002D42ea_002D82da_002Db7ebbd31a2e6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="OvertimePolicies" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::9BCF99F2-75E1-467C-8A2F-9C08E04629DD::net5.0::UnitTests.OvertimePolicies&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::9BCF99F2-75E1-467C-8A2F-9C08E04629DD::net5.0::UnitTests.Domain.Should_Not_Add_Dupplicated_PaymentInformation&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::9BCF99F2-75E1-467C-8A2F-9C08E04629DD::net5.0::UnitTests.Domain.Should_Add_PaymentInformation&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::9BCF99F2-75E1-467C-8A2F-9C08E04629DD::net5.0::UnitTests.Domain.Should_Delete_PaymentInformation&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::9BCF99F2-75E1-467C-8A2F-9C08E04629DD::net5.0::UnitTests.Domain.Should_Not_Delete_NotAdded_PaymentInformation&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
