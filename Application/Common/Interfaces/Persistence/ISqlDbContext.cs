@@ -10,5 +10,7 @@ namespace Application.Common.Interfaces.Persistence
         DbSet<Person> People { get; set; }
         DbSet<PaymentInformation> PaymentInformations { get; set; }
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
+        DbContext DbContext();
+
     }
 }

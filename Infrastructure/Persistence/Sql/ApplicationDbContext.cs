@@ -24,12 +24,13 @@ namespace Infrastructure.Persistence.Sql
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
+
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source=EntekhabChallenge.db").LogTo(x => Debug.WriteLine(x));
-            
+            //optionsBuilder.UseSqlite("Data Source=EntekhabChallenge.db").LogTo(x => Debug.WriteLine(x));
+
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.UseSqlite("Data Source=EntekhabChallenge.db").LogTo(x => Debug.WriteLine(x));
@@ -54,6 +55,10 @@ namespace Infrastructure.Persistence.Sql
             return base.SaveChangesAsync(cancellationToken);
         }
 
+        public DbContext DbContext()
+        {
+            return this;
+        }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

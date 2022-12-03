@@ -32,7 +32,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("TEXT");
 
-                    b.Property<DateTime>("Date")
+                    b.Property<string>("Date")
                         .HasColumnType("TEXT");
 
                     b.Property<DateTime>("ModifiedAt")

@@ -16,7 +16,7 @@ namespace UnitTests
             {
                 Allowance = 10000,
                 BasicSalary = 10000,
-                Date = DateTime.UtcNow,
+                Date = DateTime.UtcNow.ToString(),
                 Sallary = 10000,
                 Transportation = 10000,
             };
@@ -33,7 +33,7 @@ namespace UnitTests
             {
                 Allowance = 10000,
                 BasicSalary = 10000,
-                Date = DateTime.UtcNow,
+                Date = DateTime.UtcNow.ToString(),
                 Sallary = 10000,
                 Transportation = 10000,
             };

@@ -33,7 +33,7 @@ namespace Infrastructure.Migrations
                     BasicSalary = table.Column<double>(type: "REAL", nullable: false),
                     Allowance = table.Column<double>(type: "REAL", nullable: false),
                     Transportation = table.Column<double>(type: "REAL", nullable: false),
-                    Date = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    Date = table.Column<string>(type: "TEXT", nullable: true),
                     Sallary = table.Column<double>(type: "REAL", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "TEXT", nullable: false),
                     ModifiedAt = table.Column<DateTime>(type: "TEXT", nullable: false)

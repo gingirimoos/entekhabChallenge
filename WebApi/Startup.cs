@@ -82,6 +82,7 @@ namespace WebApi
             app.UseMiddleware<ExceptionHandlerMiddleware>();
 
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+            app.MigrateDatabase();
         }
     }
 }

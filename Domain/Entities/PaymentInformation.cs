@@ -9,7 +9,7 @@ namespace Domain.Entities
        public double BasicSalary{get;set;}
        public double Allowance{get;set;}
        public double Transportation{get;set;}
-       public DateTime Date { get; set; }
+       public string Date { get; set; }
        public double Sallary { get; set; }
        public virtual Person Person { get; set; }
 

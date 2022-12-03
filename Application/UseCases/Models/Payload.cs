@@ -23,7 +23,13 @@ namespace Application.UseCases.Models
         [SwaggerExclude]
         public double Transportation { get; set; }
         [SwaggerExclude]
-        public DateTime Date { get; set; }
-
+        public string Date { get; set; }
+        public void Mapping(Profile profile)
+        {
+            profile.CreateMap<Payload, PaymentInformation>()
+                .IgnoreAllNonExisting(); 
+            profile.CreateMap<Payload, Person>()
+                .IgnoreAllNonExisting();
+        }
     }
 }
