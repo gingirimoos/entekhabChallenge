@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Application.Common.Interfaces.Persistence.Repositories;
-using Domain.Entities;
+using Domain.Aggregates.Person;
 
 namespace Application.UseCases.Queries
 {

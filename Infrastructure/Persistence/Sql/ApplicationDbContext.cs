@@ -5,7 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Application.Common.Interfaces.Persistence;
 using Domain.Abstraction;
-using Domain.Entities;
+using Domain.Aggregates.Person;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Persistence.Sql
@@ -39,7 +39,7 @@ namespace Infrastructure.Persistence.Sql
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
         {
-            foreach (var entry in ChangeTracker.Entries<AuditableEntity>())
+            foreach (var entry in ChangeTracker.Entries<BaseEntity>())
             {
                 switch (entry.State)
                 {

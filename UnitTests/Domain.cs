@@ -1,6 +1,5 @@
-﻿
-using Domain.Entities;
-using System;
+﻿using System;
+using Domain.Aggregates.Person;
 using Xunit;
 
 namespace UnitTests

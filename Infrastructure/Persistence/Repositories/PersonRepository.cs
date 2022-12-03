@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Application.Common.Interfaces.Persistence;
 using Application.Common.Interfaces.Persistence.Repositories;
 using Dapper;
-using Domain.Entities;
+using Domain.Aggregates.Person;
 
 namespace Infrastructure.Persistence.Repositories
 {

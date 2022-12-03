@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using Domain.Abstraction;
 
-namespace Domain.Entities
+namespace Domain.Aggregates.Person
 {
-    public class Person : AuditableEntity
+    public class Person : BaseEntity , IAggregateRoot
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }

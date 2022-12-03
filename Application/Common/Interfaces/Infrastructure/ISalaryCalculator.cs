@@ -1,4 +1,4 @@
-﻿using Domain.Entities;
+﻿using Domain.Aggregates.Person;
 
 namespace Application.Common.Interfaces.Infrastructure
 {

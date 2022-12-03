@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Domain.Entities;
+using Domain.Aggregates.Person;
 
 namespace Application.Common.Interfaces.Persistence.Repositories
 {

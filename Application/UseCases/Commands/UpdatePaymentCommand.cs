@@ -3,7 +3,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Application.Common.Interfaces.Infrastructure;
 using Application.Common.Interfaces.Persistence;
-using Domain.Entities;
+using Domain.Aggregates.Person;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 

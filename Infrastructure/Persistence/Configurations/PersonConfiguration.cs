@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore;
 using System;
-using Domain.Entities;
+using Domain.Aggregates.Person;
 
 namespace Eefa.Admin.Domain.Entities.Configurations
 {

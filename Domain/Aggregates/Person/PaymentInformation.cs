@@ -1,9 +1,8 @@
-﻿using System;
-using Domain.Abstraction;
+﻿using Domain.Abstraction;
 
-namespace Domain.Entities
+namespace Domain.Aggregates.Person
 {
-    public class PaymentInformation : AuditableEntity
+    public class PaymentInformation : BaseEntity
     { 
         public int PersonId { get; set; }
        public double BasicSalary{get;set;}

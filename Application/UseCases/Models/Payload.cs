@@ -1,7 +1,7 @@
 ﻿using System;
 using Application.Common.Mappings;
 using AutoMapper;
-using Domain.Entities;
+using Domain.Aggregates.Person;
 using Lib.Swagger;
 
 namespace Application.UseCases.Models

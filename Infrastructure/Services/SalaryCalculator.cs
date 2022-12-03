@@ -1,6 +1,6 @@
 ﻿using System;
 using Application.Common.Interfaces.Infrastructure;
-using Domain.Entities;
+using Domain.Aggregates.Person;
 using OvetimePolicies;
 
 namespace Infrastructure.Services
